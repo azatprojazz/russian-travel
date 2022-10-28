@@ -16,3 +16,9 @@
     flex-flow: column;
   }
 }
+
+@media screen and (max-width: 568px) {
+  .footer {
+    padding: 64px 118px 24px 16px;
+  }
+}
