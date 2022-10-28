@@ -1,0 +1,52 @@
+.cover__item {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 740px;
+  padding: 20px; /* Хороший тон в верстке, делать эти отступы у текстов, если сожмется сильно вьюпорт */
+  text-decoration: none;
+  color: #fff;
+  background-image: url("../../../images/cover-trains.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1124px) {
+  .cover__item {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .cover__item {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .cover__item {
+    min-height: 200px;
+  }
+}
+
+.cover__item::before {
+  position: absolute;
+  transition: .5s;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  opacity: 0.3;
+  background: #2a2c2f;
+}
+
+.cover__item:hover::before {
+  opacity: .8;
+}
