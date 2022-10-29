@@ -9,16 +9,26 @@
   padding: 92px 48px 24px;
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 984px) {
   .footer {
-    gap: 48px;
     align-items: flex-start;
+    padding: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer {
+    gap: 25px;
+    align-items: center;
     flex-flow: column;
   }
 }
 
 @media screen and (max-width: 568px) {
   .footer {
+    gap: 48px;
+    align-items: flex-start;
+    flex-flow: column;
     padding: 64px 118px 24px 16px;
   }
 }
