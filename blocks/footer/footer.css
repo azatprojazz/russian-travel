@@ -11,7 +11,6 @@
 
 @media screen and (max-width: 984px) {
   .footer {
-    align-items: flex-start;
     padding: 88px 24px 24px;
   }
 }
@@ -28,7 +27,6 @@
   .footer {
     gap: 48px;
     align-items: flex-start;
-    flex-flow: column;
     padding: 64px 118px 24px 16px;
   }
 }
