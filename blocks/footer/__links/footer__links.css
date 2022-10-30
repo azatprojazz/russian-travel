@@ -14,9 +14,15 @@
   }
 }
 
+@media screen and (max-width: 680px) {
+  .footer__links {
+    gap: 35px;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .footer__links {
+    gap: 32px;
     flex-flow: column;
-    padding: 0 0 12px;
   }
 }
