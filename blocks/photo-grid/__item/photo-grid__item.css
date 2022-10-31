@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
   .photo-grid__item {
     transition: transform 0.3s ease-in-out;
   }
