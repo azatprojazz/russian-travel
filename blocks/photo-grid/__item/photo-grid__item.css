@@ -1,8 +1,13 @@
 .photo-grid__item {
   width: 100%;
-  transition: transform 0.3s ease-in-out;
 }
 
-.photo-grid__item:hover {
-  transform: scale(1.07);
+@media (min-width: 768px) and (max-width: 1280px) {
+  .photo-grid__item {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .photo-grid__item:hover {
+    transform: scale(1.07);
+  }
 }
