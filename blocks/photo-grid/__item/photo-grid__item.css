@@ -2,12 +2,12 @@
   width: 100%;
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .photo-grid__item {
     transition: transform 0.3s ease-in-out;
   }
 
   .photo-grid__item:hover {
-    transform: scale(1.07);
+    transform: scale(1.06);
   }
 }
